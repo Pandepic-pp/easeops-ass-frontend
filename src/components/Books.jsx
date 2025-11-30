@@ -4,7 +4,7 @@ import Cookies from "js-cookie";
 import Select from "react-select";
 import "./Books.css"; // Ensure you have the CSS file created previously
 
-const baseURL = "http://localhost:3000/api";
+const baseURL = "https://easeops-assignment.onrender.com/api";
 
 // --- REUSABLE COMPONENT FOR ADDING METADATA (Author/Tag/Category) ---
 const MetadataForm = ({ title, placeholder, onSubmit }) => {

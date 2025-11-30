@@ -3,7 +3,7 @@ import Cookies from "js-cookie";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
-const baseURL = "http://localhost:3000/api/auth";
+const baseURL = "https://easeops-assignment.onrender.com/api/auth";
 
 const Login = ({setIsLogin}) => {
     const [email, setEmail] = useState("");
