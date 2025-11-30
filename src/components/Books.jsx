@@ -214,9 +214,7 @@ const Books = () => {
                                     <h3>{book.title}</h3>
                                     <p className="book-meta">
                                         {/* Join author names safely */}
-                                        {book.authors && book.authors.length > 0 
-                                            ? book.authors.map(a => a.name).join(", ") 
-                                            : "Unknown Author"}
+                                        {book.description}
                                     </p>
                                 </div>
                                 <button 
